@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Thu, 23 Jan 2014 14:46:41 +0400
+Source: udns
+Binary: libudns0 libudns-dev udns-utils
+Architecture: source amd64
+Version: 0.4-1
+Distribution: unstable
+Urgency: low
+Maintainer: Michael Tokarev <mjt@tls.msk.ru>
+Changed-By: Michael Tokarev <mjt@tls.msk.ru>
+Description:
+ libudns-dev - async-capable DNS stub resolver library, development files
+ libudns0   - async-capable DNS stub resolver library
+ udns-utils - Several DNS-related utilities built on top of udns library
+Changes:
+ udns (0.4-1) unstable; urgency=low
+ .
+   * new upstream release - another bugfix
+   * pass LDFLAGS correctly, finally
+Checksums-Sha1:
+ e17b844b8f0608b1793bd2eb82a441e97c82acaa 911 udns_0.4-1.dsc
+ ffa0abf9d1654feb64d571b2615d8b70e1dd92ce 84716 udns_0.4.orig.tar.gz
+ 556eb0202befe4ddd7ac04c1e543b861323ba9d7 5008 udns_0.4-1.debian.tar.xz
+ ecbed7c8969f45bb3dede5fa90e704bc137d1377 24310 libudns0_0.4-1_amd64.deb
+ 3ad05120502b14d5a46c0e0b0bb88ca4270e27d4 54012 libudns-dev_0.4-1_amd64.deb
+ 1aa9aca01deea3338e8f4c6015dcc45ef7845252 23064 udns-utils_0.4-1_amd64.deb
+Checksums-Sha256:
+ 592b76b8e2d072d82e2d9ff736e1c7ae280b58376ad857072e0eda2088300c30 911 udns_0.4-1.dsc
+ 115108dc791a2f9e99e150012bcb459d9095da2dd7d80699b584ac0ac3768710 84716 udns_0.4.orig.tar.gz
+ bd075cd3045b837e8b1fa9881b4139612708ce536d5726fcabe15670f9d42123 5008 udns_0.4-1.debian.tar.xz
+ 0f80586dad325a4ab6df145ceacf48342d78b69cfa03b739d3db16e9bf747689 24310 libudns0_0.4-1_amd64.deb
+ 5b366442fc754b41ce551d5eb9dfe0268d0c92104c8466d2ff2764d7e734a40a 54012 libudns-dev_0.4-1_amd64.deb
+ acd44745619c65ba66cab29e3be750e2b0e18b13482fc34aef37ccc4a78f0b5f 23064 udns-utils_0.4-1_amd64.deb
+Files:
+ 0a5e482c36c74f822d5b3f7a58668081 911 net optional udns_0.4-1.dsc
+ 51e141b044b078d71ebb71f823959c1b 84716 net optional udns_0.4.orig.tar.gz
+ 13c78bda3d26d9a674e79c2a87aa58a5 5008 net optional udns_0.4-1.debian.tar.xz
+ 8e9841dfe1a5cc222c8eec85b9aa4120 24310 libs optional libudns0_0.4-1_amd64.deb
+ b65fbc22ff8423c281815ef5bfdfef42 54012 libdevel optional libudns-dev_0.4-1_amd64.deb
+ 25afb0bc0c6084dcb235aa615f1ffd36 23064 net optional udns-utils_0.4-1_amd64.deb
