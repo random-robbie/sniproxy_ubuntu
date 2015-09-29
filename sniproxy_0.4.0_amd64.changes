@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Tue, 07 Apr 2015 09:14:41 -0700
+Source: sniproxy
+Binary: sniproxy sniproxy-dbg
+Architecture: source amd64
+Version: 0.4.0
+Distribution: unstable
+Urgency: medium
+Maintainer: Dustin Lundquist <dustin@null-ptr.net>
+Changed-By: Dustin Lundquist <dustin@null-ptr.net>
+Description:
+ sniproxy   - Transparent TLS and HTTP layer 4 proxy with SNI support
+ sniproxy-dbg - debugging symbols for sniproxy
+Changes:
+ sniproxy (0.4.0) unstable; urgency=medium
+ .
+   * Improve DNS resolver:
+     Support for AAAA records
+     Configuration options
+   * Global access log
+   * Man page for sniproxy.conf
+   * Reject IP literals as hostnames for wildcard backends
+Checksums-Sha1:
+ d45d8a644917c2f24269ffa44765c91946122b4c 781 sniproxy_0.4.0.dsc
+ b9ebb52d22146248abe42afcfd85901c4c399785 159220 sniproxy_0.4.0.tar.xz
+ 8e4ff3caf5f7ae9bb9efc1778605122e0f8148d0 35518 sniproxy_0.4.0_amd64.deb
+ a1c3b2734c25b44b38efc49cb4daaf2f5695c64b 60836 sniproxy-dbg_0.4.0_amd64.deb
+Checksums-Sha256:
+ 47eb10b06f671e4658c756babaef2bdaf98fb9a9b27b2039ecf0c7f83200cc7c 781 sniproxy_0.4.0.dsc
+ 6a762d54e86c0be4577dfa96723c08e4ffffb288aff2114bd0bab5907b356c0c 159220 sniproxy_0.4.0.tar.xz
+ 058695e698be2c7ab90c994cd4f486af3e574ea2ca55995cbdbf27d650f7b992 35518 sniproxy_0.4.0_amd64.deb
+ ca4629432ef128c9c780a6287746b1fdf08f8a3e4b910870d733ec66ea0243af 60836 sniproxy-dbg_0.4.0_amd64.deb
+Files:
+ fe1290384e55a9cb593638db43edf272 781 web optional sniproxy_0.4.0.dsc
+ 148fe5975d5183741e8d057ddfcec4e5 159220 web optional sniproxy_0.4.0.tar.xz
+ 04488fe0fb0e90eb9d5ec71f1249e2ba 35518 web optional sniproxy_0.4.0_amd64.deb
+ cf3c30b22fdc8d7d12d8518a116a9f84 60836 debug extra sniproxy-dbg_0.4.0_amd64.deb
