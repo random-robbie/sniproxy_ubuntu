@@ -39,10 +39,16 @@ wget https://github.com/txt3rob/sniproxy_ubuntu/raw/master/libudns0_0.4-1_amd64.
 
 wget https://github.com/txt3rob/sniproxy_ubuntu/raw/master/libudns-dev_0.4-1_amd64.deb
 
-dpkg -i sniproxy_0.4.0_amd64.deb
+dpkg -i libudns0_0.4-1_amd64.deb
 
 dpkg -i libudns-dev_0.4-1_amd64.deb
 
-dpkg -i libudns0_0.4-1_amd64.deb
+apt-get install libev4 -y
+
+dpkg -i sniproxy_0.4.0_amd64.deb
+
+
+
+
 ```
 
